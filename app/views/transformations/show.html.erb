@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @transformation.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @transformation.body %>
+</p>
+
+<%= link_to 'Edit', edit_transformation_path(@transformation) %> |
+<%= link_to 'Back', transformations_path %>
